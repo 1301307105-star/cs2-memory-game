@@ -1,0 +1,39 @@
+body {
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-family: Helvetica;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin: 0px;
+}
+
+p {
+    text-align: center;
+}
+
+
+.card {
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 300ms;
+    user-select: none;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
