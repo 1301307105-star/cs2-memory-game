@@ -26,6 +26,7 @@ p {
     cursor: pointer;
     transition: 300ms;
     user-select: none;
+    color:black;
 }
 
 .card:hover{
